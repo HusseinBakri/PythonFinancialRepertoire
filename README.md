@@ -15,7 +15,7 @@ pip install --upgrade pip setuptools
 pip install --upgrade statsmodels
 ```
 
-While working on them I have learned a lot of the world of Fintech & finance. 
+While working on them I have learned a lot about the world of Fintech & finance. I hope also that you learn a lot from these tools! You can use them if you want when studying financial analysis.
 
 # Current Coverage
 * Rate of return of stocks 
