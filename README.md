@@ -25,10 +25,10 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * Stock Returns Analysis
 * Daily Returns, Cumulative Daily Returns
 * Volatility and Securities Risk
-* Correlation between stocks 
+* Correlation between stocks
+* Diversifiable and non-diversifiable risk 
 
 # Future Coverage
-* Diversifiable and non-diversifiable risk 
 * Univariate & Multivariate regression analysis  (Finance related)
 * Alpha and Beta coefficients  
 * Measuring a regression’s explanatory power with R^2  
