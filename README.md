@@ -26,10 +26,10 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * Daily Returns, Cumulative Daily Returns
 * Volatility and Securities Risk
 * Correlation between stocks
-* Diversifiable and non-diversifiable risk 
+* Diversifiable and non-diversifiable risk
+* Markowitz Efficient frontier calculation 
 
 # Future Coverage
-* Markowitz Efficient frontier calculation  
 * Monte Carlo simulations & using them in a Corporate Finance context
 * Using Monte Carlo for options pricing  
 * Using Monte Carlo for stock pricing  
