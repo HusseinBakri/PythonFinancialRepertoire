@@ -29,9 +29,6 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * Diversifiable and non-diversifiable risk 
 
 # Future Coverage
-* Univariate & Multivariate regression analysis  (Finance related)
-* Alpha and Beta coefficients  
-* Measuring a regression’s explanatory power with R^2  
 * Markowitz Efficient frontier calculation  
 * Monte Carlo simulations & using them in a Corporate Finance context
 * Using Monte Carlo for options pricing  
