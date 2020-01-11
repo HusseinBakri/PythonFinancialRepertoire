@@ -103,13 +103,13 @@ print("\n########### Portfolio Risk ###############")
 Portfolio_Weights = np.array([0.50, 0.50])
 
 # T is for the numpy Transpose notation
-Portfolio_Variance = np.dot(Portfolio_Weights.T, np.dot(Returns.cov() * 250, Portfolio_Weights))
+Portfolio_Variance = np.dot(Portfolio_Weights.T, np.dot(Returns.cov() * 253, Portfolio_Weights))
 print("\nPortfolio Variance ---- ")
 print(Portfolio_Variance)
 
 # To calculate the Volatility
 print("\nPortfolio Volatility ---- ")
-Portfolio_Volatility = (np.dot(Portfolio_Weights.T, np.dot(Returns.cov() * 250, Portfolio_Weights))) ** 0.5
+Portfolio_Volatility = (np.dot(Portfolio_Weights.T, np.dot(Returns.cov() * 253, Portfolio_Weights))) ** 0.5
 print("Portfolio Volatility: " + str(round(Portfolio_Volatility,3)*100) + " %")
 
 print("\n#### Diversifiable and Non-Diversifiable Risk of a Portfolio ####")
