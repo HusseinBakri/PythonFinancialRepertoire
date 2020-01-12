@@ -28,6 +28,7 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * Correlation between stocks
 * Diversifiable and non-diversifiable risk
 * Markowitz Efficient frontier calculation 
+* Capital Asset Pricing Model/Beta calculation & Sharpe Ratio Calculation
 
 # Future Coverage
 * Monte Carlo simulations & using them in a Corporate Finance context
@@ -39,13 +40,10 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * ETS (Error-Trend-Seasonality)
 * ARIMA (Auto-regressive Integrated Moving Averages)
 * Auto Correlation Plots and Partial Auto Correlation Plots
-* Sharpe Ratio
 * Portfolio Allocation Optimization /Portfolio optimization problems
-* Efficient Frontier and Markowitz Optimization
 * Types of Funds
 * Order Books
 * Short Selling
-* Capital Asset Pricing Model
 * Stock Splits and Dividends
 * Efficient Market Hypothesis
 * Algorithmic Trading with Quantopian
