@@ -10,9 +10,9 @@ Requirements:
 First install the Quantl module via pip per example: "pip install quandl"
 Pandas should also be installed.
 
-There is no need for an API key in order to retrive just basic information.
+There is no need for an API key in order to retrive just basic information from free datasets.
 You can of course request an API by creating a free account. 
-There are different types of licences that you can buy.
+There are different types of licences that you can have. You can also buy a premium licence.
 
 I will show you in this script both methods of using Quandl with an API and without it.
 
@@ -43,10 +43,11 @@ Alphabet Inc Class A (Google)       GOOGL
 '''
 There are many Quandl Databases IDs
 Please search for what you need (ttps://www.quandl.com/search)
-You can when you sign in retrieve all datasets and Databases on the website
-There is under export Data, Libraries -> Python
+You need to be signed in. You can retrieve all datasets and Databases codes from the website
+Choose the table tab,  there is under "Export Data", an option for the Python language (Libraries -> Python)
+You will get a popup showing you the Python command that you need to use with the code of the dataset and extra parameters such as dates
 
-Some Quandl Databases IDs
+Some Quandl Databases Codes
 --------------------------
 U.S. Energy Information Administration Data             EIA 
 CFTC Commitment of Traders Data                         CFTC
@@ -54,7 +55,7 @@ Core US Stock Fundamentals                              SF1
 Federal Reserve Economic Data                           FRED
 etc..
 
-Under each database there is usually a big number of datasets
+Under each database there is usually a big number of datasets. You can use the free ones.
 
 Example under CFTC, there is:
 * Commitment of traders for wheat (CFTC/W_F_ALL)
@@ -92,7 +93,7 @@ FRED_GDP.to_csv('FRED_GDP.csv')
 FRED_GDP.to_excel('FRED_GDP.xlsx')
 
 ####### Specifying a start date and an end date for data
-EIA_GAS = quandl.get("EIA/AEO_2016_REF_NO_CPP_PRCE_NA_COMM_NA_NG_NA_SATL_Y13DLRPMCF_A", start_date="2010-12-31", end_date="2012-1-1")
+EIA_GAS = quandl.get("EIA/AEO_2016_REF_NO_CPP_PRCE_NA_COMM_NA_NG_NA_SATL_Y13DLRPMCF_A", start_date="2015-12-31", end_date="2016-12-31")
 print(EIA_GAS.head())
 
 ########### Saving Data ##################
