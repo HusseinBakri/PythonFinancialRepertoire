@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''
+Pandas and xlrd should be installed
+'''
 import pandas as pd
 
 # Example code
