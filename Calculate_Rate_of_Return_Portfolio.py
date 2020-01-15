@@ -78,6 +78,10 @@ Portfolio1_Weights = np.array([0.25, 0.25, 0.25, 0.25])
 Returns_forPortfolio = (Portfolio1_Data / Portfolio1_Data.shift(1)) - 1
 print(Returns_forPortfolio.head())
 
+# Another way of calculating rate of change is using the Pandas pct_change()
+# Returns_forPortfolio = Portfolio1_Data.pct_change(1)
+# print(Returns_forPortfolio.head())
+
 # The average annual single rate of return  of portfolio
 # It is important to know the number of trading days till now from
 # "The NYSE and NASDAQ average about 253 trading days a year."" 
