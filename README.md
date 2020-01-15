@@ -5,7 +5,7 @@ A collection of Python tools for Financial Analysis, Quant and Algorithmic Tradi
 # About
 This repository is and will be a collection of a big number of Python financial tools used for Financial analysis, quant and algorithmic trading.
 
-The tools used a variety of Python libraries such as numpy, pandas, pandas-datareader, matplotlib, statsmodels, zipline, Quantopian among others. Pandas was used for data manipulation and analysis. Pandas-datareader is a module that provides remote data access for pandas to financial API providers such as IEX, Alpha Vantage, Morningstar, Quandl, Yahoo Finance. Matplotlib was used for drawing graphs.
+The tools used a variety of Python libraries such as numpy, pandas, pandas-datareader, matplotlib, mplfinance, statsmodels, zipline, Quantopian among others. Pandas was used for data manipulation and analysis. Pandas-datareader is a module that provides remote data access for pandas to financial API providers such as IEX, Alpha Vantage, Morningstar, Quandl, Yahoo Finance. Matplotlib was used for drawing graphs.
 
 Please install these libraries when needed. If you wil be using pip, check first that you have the latest version of pip and setuptools & then install library in question
 ```
@@ -30,7 +30,7 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * Diversifiable and non-diversifiable risk
 * Markowitz Efficient frontier calculation 
 * Capital Asset Pricing Model/Beta calculation & Sharpe Ratio Calculation
-* Bollinger Bands plots
+* Bollinger Bands plots/ candlestick plots
 
 # Future Coverage
 * Monte Carlo simulations & using them in a Corporate Finance context
