@@ -14,6 +14,7 @@ pip install --upgrade pip setuptools
 # example statsmodels
 pip install --upgrade statsmodels
 ```
+There might be other libraries that you need to install such as BeautifulSoup4, xlrd, SQLAlchemy among many others. Please check the docstring of each Python Script.
 
 While working on them I have learned a lot about the world of Fintech & finance. I hope also that you learn a lot from these tools! You can use them if you want when studying financial analysis.
 
@@ -29,6 +30,7 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * Diversifiable and non-diversifiable risk
 * Markowitz Efficient frontier calculation 
 * Capital Asset Pricing Model/Beta calculation & Sharpe Ratio Calculation
+* Bollinger Bands plots
 
 # Future Coverage
 * Monte Carlo simulations & using them in a Corporate Finance context
