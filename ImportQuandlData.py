@@ -103,6 +103,28 @@ EIA_GAS.to_csv('EIA_GAS.csv')
 ########### Saving as Excel #############
 EIA_GAS.to_excel('EIA_GAS.xlsx')
 
+####################### To get stock Prices with Quandl #############
+print("\nRetrieving Stock Prices with Quandl ----")
+start_date = pd.to_datetime('2015-01-01')
+end_date = pd.to_datetime('2018-01-01')
 
+# .11 means get me only the Adjusted Close prices, if you remove it you get Open, Volume etc...
+print("\nApple stocks ----")
+Apple_Quandl_Stocks = quandl.get("WIKI/AAPL.11", start_date=start_date, end_date=end_date)
+print(Apple_Quandl_Stocks.head())
+Apple_Quandl_Stocks.to_excel('Apple_Quandl_Stocks.xlsx')
 
+print("\nCISCO stocks ----")
+Cisco_Quandl_Stocks = quandl.get("WIKI/CSCO", start_date=start_date, end_date=end_date)
+print(Cisco_Quandl_Stocks.head())
+Cisco_Quandl_Stocks.to_excel('Cisco_Quandl_Stocks.xlsx')
 
+print("\nIBM stocks ----")
+IBM_Quandl_Stocks = quandl.get("WIKI/IBM.11", start_date=start_date, end_date=end_date)
+print(IBM_Quandl_Stocks.head())
+IBM_Quandl_Stocks.to_excel('IBM_Quandl_Stocks.xlsx')
+
+print("\nAmazon stocks ----")
+Amazon_Quandl_Stocks = quandl.get("WIKI/AMZN.11", start_date=start_date, end_date=end_date)
+print(Amazon_Quandl_Stocks.head())
+Amazon_Quandl_Stocks.to_excel('Amazon_Quandl_Stocks.xlsx')
