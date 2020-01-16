@@ -14,6 +14,8 @@ https://www.investopedia.com/terms/b/beta.asp
 https://www.investopedia.com/investing/beta-know-risk/
 https://en.wikipedia.org/wiki/Beta_(finance)
 
+https://www.investopedia.com/terms/l/libor.asp
+
 We will
 1) ===== Calculate the BETA of a stock vis-a vis the market ======
 We will start by calculating Beta which is a measurement that shows us how risky an individual security
@@ -46,6 +48,7 @@ Rf: Risk-free asset
 
 Thre is no risk free asset in real life but economists usually consider this as
 a 10 years or 5 years governmental bonds which are the safest investment.
+Some consider puting money in a bank saving account as a risk free investment or the London InterBank Offered Rate (LIBOR)
 Economists consider 5% as an accepted market risk premium
 
 We can get governmental bonds numbers from Bloomberg Website:
