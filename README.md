@@ -43,10 +43,4 @@ While working on them I have learned a lot about the world of Fintech & finance.
 * ARIMA (Auto-regressive Integrated Moving Averages)
 * Auto Correlation Plots and Partial Auto Correlation Plots
 * Portfolio Allocation Optimization /Portfolio optimization problems
-* Types of Funds
-* Order Books
-* Short Selling
-* Stock Splits and Dividends
-* Efficient Market Hypothesis
 * Algorithmic Trading with Quantopian
-* Futures Trading
